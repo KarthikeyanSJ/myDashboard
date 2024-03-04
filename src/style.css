@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Dashboard */
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  .selector-container {
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  /* Category Selector */
+  .category-selector select {
+    width: 200px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Product Selector */
+  .product-selector select {
+    width: 200px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Clear Button */
+  .clear-button button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .clear-button button:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Run Report Button */
+  .run-report-button button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .run-report-button button:hover {
+    background-color: #388e3c;
+  }
+  
+  .run-report-button button:disabled {
+    background-color: #ccc;
+    color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  /* Price Chart */
+  .price-chart-container {
+    margin-top: 20px;
+  }
+  
